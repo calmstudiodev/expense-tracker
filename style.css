@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0f172a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.balance-box {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#balance {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+input,button {
+    width: 100%;
+    padding: 16px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    box-sizing: border-box;
+}
+
+input {
+    font-size: 18px;
+    height: 55px;
+}
+
+button {
+    background: #22c55e;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style:none;
+    margin-top: 10px;
+}
+
+.transaction-item button {
+    width: 28px;
+    padding: 4px;
+    margin:0;
+    border-radius: 6px;
+    background: #ef4444;
+    color: white;
+}
+
+select {
+    width: 100%;
+    height: 48px;
+    padding: 0 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.type-buttons {
+    display: flex;
+    gap: 30px;
+    margin: 10px 0;
+}
+
+.type-buttons button {
+    flex: 1;
+    padding: 12px;
+}
+
+#incomeList li {
+    color: lime;
+    font-weight: bold;
+}
+
+#expenseList li {
+    color: red;
+    font-weight: bold;
+}
+
+.tracker-box {
+    display: grid;
+    grid-template-columns: 320px 320px   ;
+    gap: 60px;
+    margin: 0 auto;
+}
+
+.result-box {
+    grid-column: 1 / 3;
+    text-align: center;
+}
+
+#incomeList li,
+#expenseList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+#incomeList li button,
+#expenseList li button {
+    width: 32px;
+    height: 28px;
+    padding: 0;
+}
+
+#totalIncome,
+#totalExpense {
+    white-space: nowrap;
+    font-size: 24px;
+}
+
