@@ -16,3 +16,7 @@ A simple expense Tracker built with HTML,CSS and JavaScript.
 -HTML5
 -CSS3
 -JavaScript
+
+##Live Demo
+Click here to try:
+https://calmstudiodev.github.io/expense-tracker
