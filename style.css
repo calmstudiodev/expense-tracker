@@ -9,7 +9,11 @@ body {
 }
 
 .container {
-    width: 400px;
+   width: 100%;
+   max-width: 1000px;
+   margin: 0 auto;
+   padding: 20px;
+   box-sizing: border-box;
 }
 
 h1 {
@@ -102,8 +106,10 @@ select {
 
 .tracker-box {
     display: grid;
-    grid-template-columns: 320px 320px   ;
-    gap: 60px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    width: 100%;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -132,5 +138,24 @@ select {
 #totalExpense {
     white-space: nowrap;
     font-size: 24px;
+}
+
+@media (max-width: 768px) {
+    .tracker-box {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    .result-box {
+        grid-column: 1;
+    }
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    #totalIncome,
+    #totalExpense {
+        font-size: 20px;
+    }
 }
 
