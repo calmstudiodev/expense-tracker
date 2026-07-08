@@ -20,3 +20,14 @@ A simple expense Tracker built with HTML,CSS and JavaScript.
 ##Live Demo
 Click here to try:
 https://calmstudiodev.github.io/expense-tracker
+
+## Screenshots
+
+### Home Screen
+![Home](screenshots/home.png)
+
+### Example 1
+![Example 1](screenshots/example1.png)
+
+### Example 2
+![Example 2](screenshots/example2.png)
