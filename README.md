@@ -24,10 +24,10 @@ https://calmstudiodev.github.io/expense-tracker
 ## Screenshots
 
 ### Home Screen
-![Home](screenshots/home.png)
+![Home](home.png)
 
 ### Example 1
-![Example 1](screenshots/example1.png)
+![Example 1](example1.png)
 
 ### Example 2
-![Example 2](screenshots/example2.png)
+![Example 2](example2.png)
